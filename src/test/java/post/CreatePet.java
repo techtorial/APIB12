@@ -26,7 +26,6 @@ public class CreatePet {
 
         Assert.assertEquals("in flight from java code", parsedPet.getStatus());
 
-
     }
 
 

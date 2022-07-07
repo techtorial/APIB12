@@ -24,6 +24,18 @@ public class PayloadUtils {
     }
 
 
+    public static String getSlackPayload(){
+        return "{\n" +
+                "    \"channel\": \"C03NJHUM474\",\n" +
+                "    \"text\": \"Temirlan: hello people from java code\"\n" +
+                "}";
+    }
+
+
+
+
+
+
 
 
 
