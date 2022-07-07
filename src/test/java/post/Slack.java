@@ -40,7 +40,7 @@ public class Slack {
                 .contentType("application/json")
                 .header("Authorization",
                         "Bearer ")
-                .body(PayloadUtils.getSlackPayload())
+                .body(PayloadUtils.getSlackPayload("Temirlan: message from java"))
                 .when().post()
                 .then().statusCode(200).extract().response();
 

@@ -2,7 +2,7 @@ package utils;
 
 public class PayloadUtils {
 
-    public static String getPetPayload(){
+    public static String getPetPayload() {
         return "{\n" +
                 "  \"id\": 6731343,\n" +
                 "  \"category\": {\n" +
@@ -24,20 +24,12 @@ public class PayloadUtils {
     }
 
 
-    public static String getSlackPayload(){
+    public static String getSlackPayload(String message) {
         return "{\n" +
                 "    \"channel\": \"C03NJHUM474\",\n" +
-                "    \"text\": \"Temirlan: hello people from java code\"\n" +
+                "    \"text\": \"" + message + "\"\n" +
                 "}";
     }
-
-
-
-
-
-
-
-
 
 
 }
