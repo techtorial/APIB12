@@ -15,4 +15,7 @@ public class PetPojo {
     private List<String> photoUrls;
     private List<Map<String, Object>> tags;
     private String status;
+    private int code;
+    private String type;
+    private String message;
 }
